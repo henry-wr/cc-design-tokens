@@ -7,6 +7,7 @@ Source token can be found in `properties`.
 Generated files can be found in `build/{type}`
 
 |Type|Path|
+|---| --- |
 |`CSS`| build/css/_variables.css|
 |`SCSS`| build/scss/_variables.scss|
 
