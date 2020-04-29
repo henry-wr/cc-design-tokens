@@ -5,9 +5,10 @@ Source token can be found in `properties`.
 
 ## Generated artifacts
 Generated files can be found in `build/{type}`
-||Type||Path||
-|CSS| build/css/_variables.css|
-|SCSS| build/scss/_variables.scss|
+
+|Type|Path|
+|`CSS`| build/css/_variables.css|
+|`SCSS`| build/scss/_variables.scss|
 
 ## Build process
 At the moment the project is configured to generate `css` and `scss` files. 
