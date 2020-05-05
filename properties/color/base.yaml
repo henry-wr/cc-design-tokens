@@ -1,6 +1,1 @@
-colour:
-  neutral:
-    base:
-      rgb: "0,62,82"
-    1:
-      darkest: 'colour.neutral.base'
+color: '#F2F2F2'
