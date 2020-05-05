@@ -1,0 +1,26 @@
+{
+  "name": "cc-design-tokens",
+  "version": "1.0.0",
+  "description": "## Source tokens Source token can be found in `properties`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henry-wr/cc-design-tokens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henry-wr/cc-design-tokens/issues"
+  },
+  "homepage": "https://github.com/henry-wr/cc-design-tokens#readme",
+  "dependencies": {
+    "fs-extra": "^9.0.0",
+    "globby": "^11.0.0",
+    "style-dictionary": "^2.9.0",
+    "yamljs": "^0.3.0"
+  }
+}
