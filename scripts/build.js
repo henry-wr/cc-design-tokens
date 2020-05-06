@@ -9,6 +9,7 @@ const convertStringValues = obj =>
     const item = obj[key];
     const hasValueKey = !!item.value;
 
+
     let resolvedValue;
 
     if (hasValueKey) {
@@ -60,5 +61,5 @@ const convertStringValues = obj =>
   sd.buildAllPlatforms();
 
   console.info('Removing build directory...');
-  await fs.remove('.properties_json');
+  //await fs.remove('.properties_json');
 })();

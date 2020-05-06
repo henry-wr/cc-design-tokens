@@ -1,0 +1,6 @@
+colour:
+  neutral:
+    base: '#dadada'
+    one:
+      darkest: '#CCCCCC'
+      dark: '{colour.neutral.base.value}'
