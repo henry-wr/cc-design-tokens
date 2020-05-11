@@ -7,19 +7,33 @@ const styleDictionary = require('style-dictionary');
 const convertStringValues = obj =>
   Object.keys(obj).reduce((acc, key) => {
     const item = obj[key];
+    //check if item has a children key called 'value'
     const hasValueKey = !!item.value;
-
+    const hasRgbKey = !!item.rgb;
 
     let resolvedValue;
 
+    //If item has children key called 'value' then pass the children object
+    console.log(item, hasRgbKey, hasValueKey);
+
     if (hasValueKey) {
-      resolvedValue = item;
-    } else if (typeof item === 'string') {
-      resolvedValue = { value: item };
-    } else {
+      resolvedValue = item ;
+      //console.log('Object\nKey:' + key + '\nitem:' + item + '\nvalue:' + item.value);
+    } 
+
+    //If item is just a string, set that string as the value
+    else if (typeof item === 'string') {
+      resolvedValue = hasRgbKey? { rgb: item } : {value: item };
+      //console.log('Key-value pair\nkey:\t' + key + '\nvalue:\t' + item);
+    }
+    
+    //if item has children keys, run it through function again to drill down to the last branch
+    else {
       resolvedValue = convertStringValues(item);
+      //console.log('Run through again:' + key + item + item.value);
     }
 
+    //console.log(key, item.value, resolvedValue, item);
     return {
       ...acc,
       [key]: resolvedValue
@@ -40,8 +54,8 @@ const convertStringValues = obj =>
       // Map value fields to objects
       console.info(`Converting ${p} to JSON...\r`);
 
-      const json = JSON.stringify(convertStringValues(data));
-
+      const json = JSON.stringify(convertStringValues(data),null, '\t');
+      
       // Write output
       const newP = path.join(
         path.dirname(p),

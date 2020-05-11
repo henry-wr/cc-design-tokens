@@ -1,6 +1,10 @@
 colour:
   neutral:
-    base: '#dadada'
+    base: 
+      rgb: 0,62,82
     one:
-      darkest: '#CCCCCC'
-      dark: '{colour.neutral.base.value}'
+      darkest:
+        value: '#CCCCCC'
+        alpha: '0.9'
+      dark: '#DADADA'
+      light: zz

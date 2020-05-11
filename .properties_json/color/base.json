@@ -1,1 +1,23 @@
-{"colour":{"neutral":{"base":{"value":"#dadada"},"one":{"darkest":{"value":"#CCCCCC"},"dark":{"value":"{colour.neutral.base.value}"}}}}}
+{
+	"colour": {
+		"neutral": {
+			"base": {
+				"rgb": {
+					"value": "0,62,82"
+				}
+			},
+			"one": {
+				"darkest": {
+					"value": "#CCCCCC",
+					"alpha": "0.9"
+				},
+				"dark": {
+					"value": "#DADADA"
+				},
+				"light": {
+					"value": "zz"
+				}
+			}
+		}
+	}
+}
