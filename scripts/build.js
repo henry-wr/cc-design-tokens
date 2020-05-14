@@ -13,27 +13,18 @@ const convertStringValues = obj =>
 
     let resolvedValue;
 
-    //If item has children key called 'value' then pass the children object
-    console.log(item, hasRgbKey, hasValueKey);
-
-    if (hasValueKey) {
+    if (hasValueKey || hasRgbKey) {
       resolvedValue = item ;
-      //console.log('Object\nKey:' + key + '\nitem:' + item + '\nvalue:' + item.value);
-    } 
+    }
 
-    //If item is just a string, set that string as the value
+    //If item is just a string, add child node and set that string as the value
     else if (typeof item === 'string') {
-      resolvedValue = hasRgbKey? { rgb: item } : {value: item };
-      //console.log('Key-value pair\nkey:\t' + key + '\nvalue:\t' + item);
+      resolvedValue = {value: item };
     }
     
-    //if item has children keys, run it through function again to drill down to the last branch
-    else {
-      resolvedValue = convertStringValues(item);
-      //console.log('Run through again:' + key + item + item.value);
-    }
+    //if item has children keys, run it through function again to drill down to the last node
+    else {resolvedValue = convertStringValues(item);}
 
-    //console.log(key, item.value, resolvedValue, item);
     return {
       ...acc,
       [key]: resolvedValue
