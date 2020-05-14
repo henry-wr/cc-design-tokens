@@ -2,9 +2,7 @@
 	"colour": {
 		"neutral": {
 			"base": {
-				"rgb": {
-					"value": "0,62,82"
-				}
+				"rgb": "0,62,82"
 			},
 			"one": {
 				"darkest": {
