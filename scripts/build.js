@@ -31,6 +31,9 @@ const convertStringValues = obj =>
   }, {});
 
 (async () => {
+  //clean up temporary folder first
+  await fs.remove('.properties_json');
+  
   await fs.remove('build');
 
   await fs.copy('properties', '.properties_json');
