@@ -12,7 +12,7 @@ const convertStringValues = obj =>
 
     let resolvedValue;
 
-    if (hasValueKey || hasRgbKey) {
+    if (hasValueKey === false) {
       resolvedValue = item ;
     } 
 
