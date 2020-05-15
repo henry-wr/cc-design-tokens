@@ -1,0 +1,7 @@
+shadow:
+  navbar:
+    x: '0'
+    y: '8'
+    blur: '8'
+    colour: '{colour.neutral.one.darkest.value}'
+    alpha: '0.2'

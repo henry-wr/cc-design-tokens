@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 15 May 2020 04:36:48 GMT
+ * Generated on Fri, 15 May 2020 04:44:44 GMT
  */
 
 :root {
@@ -8,35 +8,21 @@
   --colour-neutral-one-dark: rgba(0,62,82, 0.6);
   --colour-neutral-one-lighter: rgba(0,62,82, 0.3);
   --colour-neutral-one-lightest: rgba(0,62,82, 0.15);
-  --colour-neutral-two-light: #e6ecee;
-  --colour-neutral-two-lighter: #f2f5f6;
-  --colour-neutral-two-lightest: #f7f5f9;
-  --colour-gray-darkest: #4f5053;
-  --colour-gray-lighter: #858989;
   --colour-primary-darkest: #00498f;
   --colour-primary-dark: #0092c8;
   --colour-primary-light: rgb(43,176,212);
   --colour-primary-lighter: rgba(43,176,212, 0.5);
   --colour-primary-lightest: rgba(43,176,212, 0.15);
-  --colour-success-dark: #00b284;
-  --colour-success-lighter: #80d0bb;
-  --colour-success-lightest: #e5f5f1;
-  --colour-error-darkest: #da4465;
-  --colour-error-dark: #de607c;
-  --colour-error-lightest: #fbecef;
   --colour-metro-darkest: rgb(15,136,141);
   --colour-metro-dark: rgb(23,197,203);
-  --colour-metro-light: #8BE2E5;
   --colour-metro-lighter: rgba(15,136,141, 0.2);
   --colour-metro-lightest: rgba(23,197,203, 0.2);
   --colour-regional-darkest: rgb(43,111,156);
   --colour-regional-dark: rgb(62,157,221);
-  --colour-regional-light: #8BE2E5;
   --colour-regional-lighter: rgba(43,111,156, 0.2);
   --colour-regional-lightest: rgba(62,157,221, 0.2);
   --colour-global-darkest: rgb(82,82,139);
   --colour-global-dark: rgb(120,119,201);
-  --colour-global-light: #8BE2E5;
   --colour-global-lighter: rgba(82,82,139, 0.2);
   --colour-global-lightest: rgba(120,119,201, 0.2);
   --size-font-small: 0.75rem; /* the small size of the font */
