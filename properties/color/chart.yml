@@ -1,0 +1,57 @@
+colour:
+  metro:
+    darkest:
+      rgb: '15,136,141'
+      value: 'rgb({colour.metro.darkest.rgb})'
+    
+    dark:
+      rgb: '23,197,203'
+      value: 'rgb({colour.metro.dark.rgb})'
+    
+    light: '#8BE2E5'
+    
+    lighter:
+      value: 'rgba({colour.metro.darkest.rgb}, {colour.metro.lighter.alpha})'
+      alpha: '0.2'
+    
+    lightest:
+      value: 'rgba({colour.metro.dark.rgb}, {colour.metro.lightest.alpha})'
+      alpha: '0.2'
+  
+  regional:
+    darkest:
+      rgb: '43,111,156'
+      value: 'rgb({colour.regional.darkest.rgb})'
+    
+    dark:
+      rgb: '62,157,221'
+      value: 'rgb({colour.regional.dark.rgb})'
+    
+    light: '#8BE2E5'
+    
+    lighter:
+      value: 'rgba({colour.regional.darkest.rgb}, {colour.regional.lighter.alpha})'
+      alpha: '0.2'
+    
+    lightest:
+      value: 'rgba({colour.regional.dark.rgb}, {colour.regional.lightest.alpha})'
+      alpha: '0.2'
+
+  global:
+    darkest:
+      rgb: '82,82,139'
+      value: 'rgb({colour.global.darkest.rgb})'
+    
+    dark:
+      rgb: '120,119,201'
+      value: 'rgb({colour.global.dark.rgb})'
+    
+    light: '#8BE2E5'
+    
+    lighter:
+      value: 'rgba({colour.global.darkest.rgb}, {colour.global.lighter.alpha})'
+      alpha: '0.2'
+    
+    lightest:
+      value: 'rgba({colour.global.dark.rgb}, {colour.global.lightest.alpha})'
+      alpha: '0.2'
