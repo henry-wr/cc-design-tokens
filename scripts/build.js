@@ -3,6 +3,10 @@ const globby = require('globby');
 const fs = require('fs-extra');
 const path = require('path');
 const styleDictionary = require('style-dictionary');
+const Color = require('tinycolor2');
+
+//Import custom transform
+const cssBoxShadow = require('./css-boxshadow');
 
 const convertStringValues = obj =>
   Object.keys(obj).reduce((acc, key) => {
@@ -62,6 +66,21 @@ const convertStringValues = obj =>
   );
 
   console.info('Processing style-dictionary...');
+
+  //Register custom transform
+  styleDictionary.registerTransform(cssBoxShadow);
+  
+  //Register custom transform group
+  styleDictionary.registerTransformGroup({
+    name: 'custom/Web',
+    transforms: [
+      'attribute/cti',
+      'name/cti/kebab',
+      'size/rem',
+      'color/css',
+      'attribute/shadow'
+    ]
+  });
 
   const sd = styleDictionary.extend('./config.json');
 

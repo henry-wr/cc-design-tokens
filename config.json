@@ -10,8 +10,7 @@
       }]
     },
     "css":{
-      "transformGroup": "css",
-      "transform": ["color/rgb"],
+      "transformGroup": "custom/Web",
       "buildPath": "build/css/",
       "files":[{
         "destination": "_variables.css",
