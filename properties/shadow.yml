@@ -1,0 +1,33 @@
+shadow:
+  comments: 'Token group for shadows'
+  navbar:
+    value: ''
+    x: '0'
+    y: '8'
+    blur: '8'
+    colour: 'rgba({colour.neutral.base.rgb}, {shadow.navbar.alpha})'
+    alpha: '0.2'
+  
+  sidebar:
+    value: ''
+    x: '-5'
+    y: '0'
+    blur: '5'
+    colour: 'rgba({colour.neutral.base.rgb}, {shadow.navbar.alpha})'
+    alpha: '0.2'
+
+  container:
+    value: ''
+    x: '0'
+    y: '2'
+    blur: '3'
+    colour: 'rgba({colour.neutral.base.rgb}, {shadow.navbar.alpha})'
+    alpha: '0.2'
+
+  modal:
+    value: ''
+    x: '0'
+    y: '5'
+    blur: '16'
+    colour: 'rgba({colour.neutral.base.rgb}, {shadow.navbar.alpha})'
+    alpha: '0.3'
