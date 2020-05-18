@@ -1,5 +1,4 @@
 shadow:
-  comments: 'Token group for shadows'
   navbar:
     value: ''
     x: '0'
@@ -13,15 +12,15 @@ shadow:
     x: '-5'
     y: '0'
     blur: '5'
-    colour: 'rgba({colour.neutral.base.rgb}, {shadow.navbar.alpha})'
+    colour: 'rgba({colour.neutral.base.rgb}, {shadow.sidebar.alpha})'
     alpha: '0.2'
 
-  container:
+  card:
     value: ''
     x: '0'
     y: '2'
     blur: '3'
-    colour: 'rgba({colour.neutral.base.rgb}, {shadow.navbar.alpha})'
+    colour: 'rgba({colour.neutral.base.rgb}, {shadow.card.alpha})'
     alpha: '0.2'
 
   modal:
@@ -29,5 +28,5 @@ shadow:
     x: '0'
     y: '5'
     blur: '16'
-    colour: 'rgba({colour.neutral.base.rgb}, {shadow.navbar.alpha})'
+    colour: 'rgba({colour.neutral.base.rgb}, {shadow.modal.alpha})'
     alpha: '0.3'
