@@ -1,0 +1,16 @@
+size:
+  spacer:
+    xxs:
+      value: 3
+    xs:
+      value: 5
+    s:
+      value: 10
+    m:
+      value: 15
+    l:
+      value: 20
+    xl:
+      value: 30
+    xxl:
+      value: 40
