@@ -2,7 +2,7 @@
   "source": [".properties_json/**/*.json"],
   "platforms": {
     "scss": {
-      "transformGroup": "scss",
+      "transformGroup": "custom/scss",
       "buildPath": "build/scss/",
       "files": [{
         "destination": "_variables.scss",
@@ -10,7 +10,7 @@
       }]
     },
     "css":{
-      "transformGroup": "custom/Web",
+      "transformGroup": "custom/css",
       "buildPath": "build/css/",
       "files":[{
         "destination": "_variables.css",
