@@ -3,7 +3,7 @@ module.exports = {
     transforms: [
         'attribute/cti',
         'name/cti/kebab',
-        'time/seconds'
+        'time/seconds',
         'size/rem',
         'color/css',
         'shadow/boxshadow' //combine shadow parameters into one boxshadow value
