@@ -1,0 +1,39 @@
+size:
+  font:
+    heading:
+      1:
+        value: 35
+      2:
+        value: 26
+      3:
+        value: 22
+      4:
+        value: 18
+      5:
+        value: 16
+    
+    body:
+      large:
+        value: 15
+      
+      medium:
+        value: 14
+
+      small:
+        value: 13
+      
+      tiny:
+        value: 10
+      
+      default:
+        value: '{size.font.body.large.value}'
+    
+    article:
+      heading:
+        value: 35
+      
+      body:
+        value: 18
+      
+      blockquote:
+        value: 24
