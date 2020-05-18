@@ -21,13 +21,18 @@ colour:
         alpha: '0.15'
     
     two:
-      light: '#e6ecee'
-      lighter: '#f2f5f6'
-      lightest: '#f7f5f9'
+      light: 
+        value: '#e6ecee'
+      lighter: 
+        value: '#f2f5f6'
+      lightest: 
+        value: '#f7f5f9'
   
   gray:
-    darkest: '#4f5053'
-    lighter: '#858989'
+    darkest: 
+      value: '#4f5053'
+    lighter: 
+      value: '#858989'
   
   primary:
     darkest:
@@ -48,11 +53,17 @@ colour:
       alpha: '0.15'
 
   success:
-    dark: '#00b284'
-    lighter: '#80d0bb'
-    lightest: '#e5f5f1'
+    dark: 
+      value: '#00b284'
+    lighter: 
+      value: '#80d0bb'
+    lightest: 
+      value: '#e5f5f1'
   
   error:
-    darkest: '#da4465'
-    dark: '#de607c'
-    lightest: '#fbecef'
+    darkest: 
+      value: '#da4465'
+    dark: 
+      value: '#de607c'
+    lightest: 
+      value: '#fbecef'
