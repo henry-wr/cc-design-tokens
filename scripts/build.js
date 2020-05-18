@@ -66,11 +66,13 @@ const convertStringValues = obj =>
 
   //Import custom transforms & transform groups
   const cssBoxShadow = require('./transforms/shadow-boxshadow');
+  const spacerToPx = require('./transforms/spacer-px');
   const cssTransformGroup = require('./transform-groups/css-transform-group');
   const scssTransformGroup = require('./transform-groups/scss-transform-group');
 
   //Register custom transform
   styleDictionary.registerTransform(cssBoxShadow);
+  styleDictionary.registerTransform(spacerToPx);
   
   //Register custom transform group
   styleDictionary.registerTransformGroup(cssTransformGroup);

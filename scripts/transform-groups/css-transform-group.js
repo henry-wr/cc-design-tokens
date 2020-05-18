@@ -5,7 +5,8 @@ module.exports = {
         'name/cti/kebab',
         'time/seconds',
         'size/rem',
+        'size/spacerToPx',
         'color/css',
-        'shadow/boxshadow' //combine shadow parameters into one boxshadow value
+        'shadow/boxShadow' //combine shadow parameters into one boxshadow value
     ]
 };

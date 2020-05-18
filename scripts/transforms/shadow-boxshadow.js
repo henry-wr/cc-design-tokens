@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'shadow/boxshadow',
+    name: 'shadow/boxShadow',
     type: 'value',
     matcher: function(prop) {
       return prop.attributes.category === 'shadow';
