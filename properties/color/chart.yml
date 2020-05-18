@@ -9,17 +9,64 @@ colour:
           value: '{colour.metro.darkest.value}'
         
         historical:
-          value: '{colour.metro.lighter.value'}
+          value: '{colour.metro.lighter.value'
         
         historicalAvg:
-          value: '{colour.metro.darkest.value'}
+          value: '{colour.metro.darkest.value'
     
       rx:
         current:
           value: '{colour.metro.dark.value}'
         
         historical:
-          value: '{colour.metro.lightest.value'}
+          value: '{colour.metro.lightest.value'
+        historicalAvg:
+          value: '{colour.metro.dark.value'
+    
+    regional:
+      allocation:
+        value: '{colour.regional.light.value}'
+      
+      tx:
+        current:
+          value: '{colour.regional.darkest.value}'
+        
+        historical:
+          value: '{colour.regional.lighter.value'
         
         historicalAvg:
-          value: '{colour.metro.dark.value'}
+          value: '{colour.regional.darkest.value'
+    
+      rx:
+        current:
+          value: '{colour.regional.dark.value}'
+        
+        historical:
+          value: '{colour.regional.lightest.value'
+        
+        historicalAvg:
+          value: '{colour.regional.dark.value'
+
+    global:
+      allocation:
+        value: '{colour.global.light.value}'
+      
+      tx:
+        current:
+          value: '{colour.global.darkest.value}'
+        
+        historical:
+          value: '{colour.global.lighter.value'
+        
+        historicalAvg:
+          value: '{colour.global.darkest.value'
+    
+      rx:
+        current:
+          value: '{colour.global.dark.value}'
+        
+        historical:
+          value: '{colour.global.lightest.value'
+        
+        historicalAvg:
+          value: '{colour.global.dark.value'
