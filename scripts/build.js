@@ -5,9 +5,6 @@ const path = require('path');
 const styleDictionary = require('style-dictionary');
 const Color = require('tinycolor2');
 
-//Import custom transform
-const cssBoxShadow = require('./css-boxshadow');
-
 const convertStringValues = obj =>
   Object.keys(obj).reduce((acc, key) => {
     const item = obj[key];
@@ -67,20 +64,17 @@ const convertStringValues = obj =>
 
   console.info('Processing style-dictionary...');
 
+  //Import custom transforms & transform groups
+  const cssBoxShadow = require('./transforms/shadow-boxshadow');
+  const cssTransformGroup = require('./transform-groups/css-transform-group');
+  const scssTransformGroup = require('./transform-groups/scss-transform-group');
+
   //Register custom transform
   styleDictionary.registerTransform(cssBoxShadow);
   
   //Register custom transform group
-  styleDictionary.registerTransformGroup({
-    name: 'custom/Web',
-    transforms: [
-      'attribute/cti',
-      'name/cti/kebab',
-      'size/rem',
-      'color/css',
-      'attribute/shadow'
-    ]
-  });
+  styleDictionary.registerTransformGroup(cssTransformGroup);
+  styleDictionary.registerTransformGroup(scssTransformGroup);
 
   const sd = styleDictionary.extend('./config.json');
 
