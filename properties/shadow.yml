@@ -1,0 +1,33 @@
+# Token group (style) for shadows
+shadow:
+  navbar:
+    value: ''
+    x: '0'
+    y: '8'
+    blur: '8'
+    colour: 'rgba({colour.neutral.base.rgb}, {shadow.navbar.alpha})'
+    alpha: '0.2'
+  
+  sidebar:
+    value: ''
+    x: '-5'
+    y: '0'
+    blur: '5'
+    colour: 'rgba({colour.neutral.base.rgb}, {shadow.sidebar.alpha})'
+    alpha: '0.2'
+
+  card:
+    value: ''
+    x: '0'
+    y: '2'
+    blur: '3'
+    colour: 'rgba({colour.neutral.base.rgb}, {shadow.card.alpha})'
+    alpha: '0.2'
+
+  modal:
+    value: ''
+    x: '0'
+    y: '5'
+    blur: '16'
+    colour: 'rgba({colour.neutral.base.rgb}, {shadow.modal.alpha})'
+    alpha: '0.3'
