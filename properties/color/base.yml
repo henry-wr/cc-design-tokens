@@ -1,23 +1,23 @@
-colour:
+color:
   neutral:
     base: 
       rgb: '0,62,82'
     
     one:
       darkest:
-        value: 'rgba({colour.neutral.base.rgb}, {colour.neutral.one.darkest.alpha})'
+        value: 'rgba({color.neutral.base.rgb}, {color.neutral.one.darkest.alpha})'
         alpha: '0.9'
       
       dark:
-        value: 'rgba({colour.neutral.base.rgb}, {colour.neutral.one.dark.alpha})'
+        value: 'rgba({color.neutral.base.rgb}, {color.neutral.one.dark.alpha})'
         alpha: '0.6'
       
       lighter:
-        value: 'rgba({colour.neutral.base.rgb}, {colour.neutral.one.lighter.alpha})'
+        value: 'rgba({color.neutral.base.rgb}, {color.neutral.one.lighter.alpha})'
         alpha: '0.3'
       
       lightest:
-        value: 'rgba({colour.neutral.base.rgb}, {colour.neutral.one.lightest.alpha})'
+        value: 'rgba({color.neutral.base.rgb}, {color.neutral.one.lightest.alpha})'
         alpha: '0.15'
     
     two:
@@ -42,14 +42,14 @@ colour:
     
     light:
       rgb: '43,176,212'
-      value: rgb({colour.primary.light.rgb})
+      value: rgb({color.primary.light.rgb})
     
     lighter:
-      value: 'rgba({colour.primary.light.rgb}, {colour.primary.lighter.alpha})'
+      value: 'rgba({color.primary.light.rgb}, {color.primary.lighter.alpha})'
       alpha: '0.5'
     
     lightest:
-      value: 'rgba({colour.primary.light.rgb}, {colour.primary.lightest.alpha})'
+      value: 'rgba({color.primary.light.rgb}, {color.primary.lightest.alpha})'
       alpha: '0.15'
 
   success:
@@ -71,59 +71,59 @@ colour:
   metro:
     darkest:
       rgb: '15,136,141'
-      value: 'rgb({colour.metro.darkest.rgb})'
+      value: 'rgb({color.metro.darkest.rgb})'
     
     dark:
       rgb: '23,197,203'
-      value: 'rgb({colour.metro.dark.rgb})'
+      value: 'rgb({color.metro.dark.rgb})'
     
     light: 
       value: '#8BE2E5'
     
     lighter:
-      value: 'rgba({colour.metro.darkest.rgb}, {colour.metro.lighter.alpha})'
+      value: 'rgba({color.metro.darkest.rgb}, {color.metro.lighter.alpha})'
       alpha: '0.2'
     
     lightest:
-      value: 'rgba({colour.metro.dark.rgb}, {colour.metro.lightest.alpha})'
+      value: 'rgba({color.metro.dark.rgb}, {color.metro.lightest.alpha})'
       alpha: '0.2'
   
   regional:
     darkest:
       rgb: '43,111,156'
-      value: 'rgb({colour.regional.darkest.rgb})'
+      value: 'rgb({color.regional.darkest.rgb})'
     
     dark:
       rgb: '62,157,221'
-      value: 'rgb({colour.regional.dark.rgb})'
+      value: 'rgb({color.regional.dark.rgb})'
     
     light: 
       value: '#8BE2E5'
     
     lighter:
-      value: 'rgba({colour.regional.darkest.rgb}, {colour.regional.lighter.alpha})'
+      value: 'rgba({color.regional.darkest.rgb}, {color.regional.lighter.alpha})'
       alpha: '0.2'
     
     lightest:
-      value: 'rgba({colour.regional.dark.rgb}, {colour.regional.lightest.alpha})'
+      value: 'rgba({color.regional.dark.rgb}, {color.regional.lightest.alpha})'
       alpha: '0.2'
 
   global:
     darkest:
       rgb: '82,82,139'
-      value: 'rgb({colour.global.darkest.rgb})'
+      value: 'rgb({color.global.darkest.rgb})'
     
     dark:
       rgb: '120,119,201'
-      value: 'rgb({colour.global.dark.rgb})'
+      value: 'rgb({color.global.dark.rgb})'
     
     light: 
       value: '#8BE2E5'
     
     lighter:
-      value: 'rgba({colour.global.darkest.rgb}, {colour.global.lighter.alpha})'
+      value: 'rgba({color.global.darkest.rgb}, {color.global.lighter.alpha})'
       alpha: '0.2'
     
     lightest:
-      value: 'rgba({colour.global.dark.rgb}, {colour.global.lightest.alpha})'
+      value: 'rgba({color.global.dark.rgb}, {color.global.lightest.alpha})'
       alpha: '0.2'

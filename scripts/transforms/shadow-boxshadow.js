@@ -9,7 +9,7 @@ module.exports = {
         prop.original.x + 'px',
         prop.original.y +  'px',
         prop.original.blur + 'px',
-        prop.original.colour
+        prop.original.color
       ]
       return boxShadow.join(' ');
     }

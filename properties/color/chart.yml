@@ -1,72 +1,72 @@
-colour:
+color:
   bg:
     metro:
       allocation:
-        value: '{colour.metro.light.value}'
+        value: '{color.metro.light.value}'
       
       tx:
         current:
-          value: '{colour.metro.darkest.value}'
+          value: '{color.metro.darkest.value}'
         
         historical:
-          value: '{colour.metro.lighter.value}'
+          value: '{color.metro.lighter.value}'
         
         historicalAvg:
-          value: '{colour.metro.darkest.value}'
+          value: '{color.metro.darkest.value}'
     
       rx:
         current:
-          value: '{colour.metro.dark.value}'
+          value: '{color.metro.dark.value}'
         
         historical:
-          value: '{colour.metro.lightest.value}'
+          value: '{color.metro.lightest.value}'
         historicalAvg:
-          value: '{colour.metro.dark.value}'
+          value: '{color.metro.dark.value}'
     
     regional:
       allocation:
-        value: '{colour.regional.light.value}'
+        value: '{color.regional.light.value}'
       
       tx:
         current:
-          value: '{colour.regional.darkest.value}'
+          value: '{color.regional.darkest.value}'
         
         historical:
-          value: '{colour.regional.lighter.value}'
+          value: '{color.regional.lighter.value}'
         
         historicalAvg:
-          value: '{colour.regional.darkest.value}'
+          value: '{color.regional.darkest.value}'
     
       rx:
         current:
-          value: '{colour.regional.dark.value}'
+          value: '{color.regional.dark.value}'
         
         historical:
-          value: '{colour.regional.lightest.value}'
+          value: '{color.regional.lightest.value}'
         
         historicalAvg:
-          value: '{colour.regional.dark.value}'
+          value: '{color.regional.dark.value}'
 
     global:
       allocation:
-        value: '{colour.global.light.value}'
+        value: '{color.global.light.value}'
       
       tx:
         current:
-          value: '{colour.global.darkest.value}'
+          value: '{color.global.darkest.value}'
         
         historical:
-          value: '{colour.global.lighter.value}'
+          value: '{color.global.lighter.value}'
         
         historicalAvg:
-          value: '{colour.global.darkest.value}'
+          value: '{color.global.darkest.value}'
     
       rx:
         current:
-          value: '{colour.global.dark.value}'
+          value: '{color.global.dark.value}'
         
         historical:
-          value: '{colour.global.lightest.value}'
+          value: '{color.global.lightest.value}'
         
         historicalAvg:
-          value: '{colour.global.dark.value}'
+          value: '{color.global.dark.value}'

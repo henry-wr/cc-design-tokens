@@ -1,10 +1,10 @@
-colour:
+color:
   bg:
     default: 
       value: '#ffffff'
     light: 
-      value: '{colour.neutral.two.light.value}'
+      value: '{color.neutral.two.light.value}'
     lighter: 
-      value: '{colour.neutral.two.lighter.value}'
+      value: '{color.neutral.two.lighter.value}'
     lightest: 
-      value: '{colour.neutral.two.lightest.value}'
+      value: '{color.neutral.two.lightest.value}'
